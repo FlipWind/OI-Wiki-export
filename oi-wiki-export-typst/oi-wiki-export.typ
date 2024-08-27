@@ -193,7 +193,7 @@
 /* END main */
 
 /* BEGIN back cover */
-#pagebreak(to: "odd")
+#pagebreak(to: "even")
 
 #set page(
   header: none,
