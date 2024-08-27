@@ -52,7 +52,7 @@
         #counter(page).display("1")
         #h(1fr)
         第#counter(heading.where(level: 1)).display("一")章
-        #h(3cm)
+        #h(.3cm)
         #chapters.last().body
       ]
     }
@@ -223,7 +223,7 @@
   grid(columns: (1fr, .75in, 1fr, .5in), rows: .5in, ..content)
 }
 #let links-cell(content) = block(width: 100%, height: 100%, align(horizon, content))
-#let qrcode(arg) = tiaoma.qrcode(arg, width: .4in)
+#let qrcode(arg) = tiaoma.qrcode(arg, width: .2in)
 
 #let tablex-custom(columns: (), aligns: (), ..cells) = {
   set text(9pt)

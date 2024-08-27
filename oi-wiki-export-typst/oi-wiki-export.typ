@@ -55,7 +55,7 @@
 #counter(page).update(1)
 
 #set text(
-  ROOT_EM,
+  5pt,
   font: ("New Computer Modern", "Noto Serif CJK SC"),
 )
 
@@ -154,6 +154,7 @@
 
   align(horizon)[
     第#counter(heading).display("一")章
+    #h(.5cm)
 
     #it.body
   ]
