@@ -52,7 +52,7 @@
         #counter(page).display("1")
         #h(1fr)
         第#counter(heading.where(level: 1)).display("一")章
-        #h(1em)
+        #h(3em)
         #chapters.last().body
       ]
     }

@@ -16,7 +16,7 @@
 #set page(
   header: none,
   paper: "a4",
-  margin: (top: .8in, inside: .4in, bottom: .7in, outside: .6in),
+  margin: (top: .5in, inside: .4in, bottom: .4in, outside: .5in),
   header-ascent: .3in,
   fill: luma(95%),
 )
@@ -87,12 +87,12 @@
   font: ("New Computer Modern", "Noto Sans CJK SC"),
   weight: 551,
 )
-#show heading.where(level: 1): set text(25pt)
-#show heading.where(level: 2): set text(20pt)
-#show heading.where(level: 3): set text(17pt)
-#show heading.where(level: 4): set text(14pt)
-#show heading.where(level: 5): set text(12pt)
-#show heading.where(level: 6): set text(10pt)
+#show heading.where(level: 1): set text(17pt)
+#show heading.where(level: 2): set text(14pt)
+#show heading.where(level: 3): set text(12pt)
+#show heading.where(level: 4): set text(10pt)
+#show heading.where(level: 5): set text(8pt)
+#show heading.where(level: 6): set text(6pt)
 #show heading: it => {
   // NOTE: dynamic spacing?
   // v(1fr, weak: true)
