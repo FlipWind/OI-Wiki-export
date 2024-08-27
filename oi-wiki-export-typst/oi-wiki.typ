@@ -220,10 +220,10 @@
   set text(5pt)
   set par(leading: .5em)
 
-  grid(columns: (1fr, .75in, 1fr, .5in), rows: .2in, ..content)
+  grid(columns: (1fr, .75in, 1fr, .5in), rows: .1in, ..content)
 }
 #let links-cell(content) = block(width: 100%, height: 100%, align(horizon, content))
-#let qrcode(arg) = tiaoma.qrcode(arg, width: .15in)
+#let qrcode(arg) = tiaoma.qrcode(arg, width: .0in)
 
 #let tablex-custom(columns: (), aligns: (), ..cells) = {
   set text(5pt)
