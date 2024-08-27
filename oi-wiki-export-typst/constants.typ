@@ -9,5 +9,5 @@
 #let RAW_EM = 1.125em
 
 // Page dimensions minus margin
-#let VISIBLE_WIDTH = 15cm - 1in
-#let VISIBLE_HEIGHT = 20cm - 1.5in
+#let VISIBLE_WIDTH = 10cm - 1in
+#let VISIBLE_HEIGHT = 15cm - 1.5in

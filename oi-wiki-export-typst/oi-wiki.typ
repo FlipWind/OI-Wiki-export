@@ -223,10 +223,10 @@
   grid(columns: (1fr, .75in, 1fr, .5in), rows: .2in, ..content)
 }
 #let links-cell(content) = block(width: 100%, height: 100%, align(horizon, content))
-#let qrcode(arg) = tiaoma.qrcode(arg, width: .2in)
+#let qrcode(arg) = tiaoma.qrcode(arg, width: .15in)
 
 #let tablex-custom(columns: (), aligns: (), ..cells) = {
-  set text(9pt)
+  set text(5pt)
 
   align(
     center,
