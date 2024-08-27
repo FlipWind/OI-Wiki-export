@@ -17,7 +17,7 @@
   header: none,
   paper: "a4",
   margin: (top: .5in, inside: .4in, bottom: .4in, outside: .5in),
-  header-ascent: .3in,
+  header-ascent: .1in,
   fill: luma(95%),
 )
 
@@ -87,11 +87,11 @@
   font: ("New Computer Modern", "Noto Sans CJK SC"),
   weight: 551,
 )
-#show heading.where(level: 1): set text(17pt)
-#show heading.where(level: 2): set text(14pt)
-#show heading.where(level: 3): set text(12pt)
-#show heading.where(level: 4): set text(10pt)
-#show heading.where(level: 5): set text(8pt)
+#show heading.where(level: 1): set text(12pt)
+#show heading.where(level: 2): set text(10pt)
+#show heading.where(level: 3): set text(8pt)
+#show heading.where(level: 4): set text(6pt)
+#show heading.where(level: 5): set text(6pt)
 #show heading.where(level: 6): set text(6pt)
 #show heading: it => {
   // NOTE: dynamic spacing?
@@ -144,7 +144,7 @@
 
 #show heading.where(level: 1): it => {
   set text(
-    25pt,
+    12pt,
     font: ("New Computer Modern", "Noto Serif CJK SC"),
     weight: 700,
   )
@@ -184,7 +184,7 @@
 #show ref: set text(fill: cmyk(0%, 100%, 100%, 0%))
 
 #show footnote.entry: it => {
-  set text(9pt)
+  set text(3pt)
   show parbreak: none
   it
 }

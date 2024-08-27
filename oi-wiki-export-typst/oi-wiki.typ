@@ -52,7 +52,7 @@
         #counter(page).display("1")
         #h(1fr)
         第#counter(heading.where(level: 1)).display("一")章
-        #h(3em)
+        #h(3cm)
         #chapters.last().body
       ]
     }
@@ -217,7 +217,7 @@
 })
 
 #let links-grid(..content) = {
-  set text(9pt)
+  set text(5pt)
   set par(leading: .5em)
 
   grid(columns: (1fr, .75in, 1fr, .5in), rows: .5in, ..content)
