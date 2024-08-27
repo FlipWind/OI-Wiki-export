@@ -55,7 +55,7 @@
 #counter(page).update(1)
 
 #set text(
-  5pt,
+  ROOT_EM,
   font: ("New Computer Modern", "Noto Serif CJK SC"),
 )
 
@@ -153,13 +153,12 @@
   )
 
   align(horizon)[
-    第#counter(heading).display("一")章
-    #h(.5cm)
+    第#counter(heading).display("一")章==
 
     #it.body
   ]
 }
-#h(.3cm)
+
 #show heading.where(level: 2): it => {
   counter(footnote).update(0)
   it
