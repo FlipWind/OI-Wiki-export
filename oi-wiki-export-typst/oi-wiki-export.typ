@@ -154,7 +154,7 @@
 
   align(horizon)[
     第#counter(heading).display("一")章
-    #v(3cm)
+    #v(1cm)
     #it.body
   ]
 }
