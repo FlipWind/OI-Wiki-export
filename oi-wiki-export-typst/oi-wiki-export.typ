@@ -129,7 +129,7 @@
   level: 1
 ): it => {
   v(20pt, weak: true)
-  text(14pt)[#strong(it)]
+  text(9pt)[#strong(it)]
 }
 
 #outline(indent: auto)
@@ -159,7 +159,7 @@
     #it.body
   ]
 }
-
+#h(.3cm)
 #show heading.where(level: 2): it => {
   counter(footnote).update(0)
   it
