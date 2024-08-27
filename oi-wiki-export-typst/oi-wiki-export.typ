@@ -154,11 +154,9 @@
 
   align(horizon)[
     第#counter(heading).display("一")章
-
+    #v(3cm)
     #it.body
   ]
-
-  v(2cm)
 }
 
 #show heading.where(level: 2): it => {
